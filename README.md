@@ -23,9 +23,9 @@ or anywhere in between.
 * Downloads the best size of the picture depending on your screen resolution
 * Optionally delete old wallpapers from the download directory
 * Supported languages:
- * `en` English
- * `nb` Norwegian Bokmål
- * `nn` Norwegian Nynorsk
+  * `en` English
+  * `nb` Norwegian Bokmål
+  * `nn` Norwegian Nynorsk
 
 ## TODO
 
