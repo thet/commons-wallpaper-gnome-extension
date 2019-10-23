@@ -1,21 +1,25 @@
-# Wikimedia Commons wallpaper changer.
-# Copyright (C) 2019
-# This file is distributed under the same license as the Wikimedia Commons wallpaper changer package.
-# Jon Harald Søby <jhsoby@gmail.com>, 2019.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-23 02:59+0200\n"
+"POT-Creation-Date: 2019-10-23 12:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _;N_\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: extension.js\n"
+"X-Poedit-SearchPath-1: Settings.ui.h\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
@@ -80,8 +84,9 @@ msgid "https://github.com/jhsoby/commons-wallpaper-gnome-extension"
 msgstr ""
 
 #: Settings.ui.h:16
-msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which "
-"was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
+msgid ""
+"Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was "
+"again based on the NASA APOD Gnome shell extension by Ella Argentieri."
 msgstr ""
 
 #: Settings.ui.h:17
@@ -125,6 +130,22 @@ msgstr ""
 
 #: extension.js:169
 msgid "Next refresh"
+msgstr ""
+
+#: extension.js:263
+msgid "(No description …)"
+msgstr ""
+
+#: extension.js:266
+msgid "Creator: "
+msgstr ""
+
+#: extension.js:268
+msgid "(No creator listed …)"
+msgstr ""
+
+#: extension.js:271
+msgid "License: "
 msgstr ""
 
 #: extension.js:313

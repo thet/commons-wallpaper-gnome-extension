@@ -260,15 +260,15 @@ const CommonsWallpaperIndicator = new Lang.Class({
             if ('ImageDescription' in imageinfo['extmetadata']) {
                 this.title = shortField(imageinfo['extmetadata']['ImageDescription']['value']);
             } else {
-                this.title = '(No description …)';
+                this.title = _('(No description …)');
             }
             if ('Artist' in imageinfo['extmetadata']) {
-                this.creator = shortField('Creator: ' + imageinfo['extmetadata']['Artist']['value']);
+                this.creator = shortField(_('Creator: ') + imageinfo['extmetadata']['Artist']['value']);
             } else {
-                this.creator = '(No creator listed …)';
+                this.creator = _('(No creator listed …)');
             }
             this.imageinfolink = imageinfo['descriptionurl'];
-            this.license = shortField('License: ' + imageinfo['extmetadata']['LicenseShortName']['value']);
+            this.license = shortField(_('License: ') + imageinfo['extmetadata']['LicenseShortName']['value']);
             if ('LicenseUrl' in imageinfo['extmetadata']) {
                 this.licenselink = imageinfo['extmetadata']['LicenseUrl']['value'];
             } else {
