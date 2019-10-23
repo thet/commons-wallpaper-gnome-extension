@@ -51,3 +51,14 @@ or create a zip file by doing this
 
 You can then install this file using the Gnome Tweak Tool. Please note that to install an extension correctly the zip must
 have the metadata.json file in the base directory (not in a sub-directory), so you can't use the Git zip file to do this.
+
+## Screenshots
+
+Screenshot showing the widget open, with image description, author and license. The wallpaper in the screenshot is
+[Arelia aurita (Cnidaria)](https://commons.wikimedia.org/wiki/File:Aurelia_aurita_(Cnidaria)_Luc_Viatour.jpg) by
+[Luc Viatour](https://commons.wikimedia.org/wiki/User:Lviatour), license
+[Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.no).
+![Screenshot](/screenshots/widget.png)
+
+Screenshot showing the extension's settings.
+![Settings](/screenshots/settings.png)
