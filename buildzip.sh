@@ -14,4 +14,4 @@ rm CommonsWallpaper@jhsoby-gmail.com.zip
 
 zip -r CommonsWallpaper@jhsoby-gmail.com.zip *
 
-zip -d CommonsWallpaper@jhsoby-gmail.com.zip screenshot/* screenshot buildzip.sh Settings.ui.h
+zip -d CommonsWallpaper@jhsoby-gmail.com.zip screenshots/* screenshots buildzip.sh Settings.ui.h
