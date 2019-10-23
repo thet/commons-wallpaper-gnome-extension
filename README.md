@@ -1,4 +1,4 @@
-# GNOME Shell extension - Wikimedia Commons Wallpaper changer
+# GNOME Shell extension - Wikimedia Commons Wallpaper Changer
 
 Lightweigt GNOME shell extension to change your wallpaper at set intervals
 to selected pictures from Wikimedia Commons. It shows the description of the
