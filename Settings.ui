@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated with glade 3.22.1 
+<!-- Generated with glade 3.22.0 
 
-Copyright (C) 2017
+Copyright (C) 2019
 
-This file is part of Bing Wallpaper extension preferences.
+This file is part of Commons Wallpaper extension preferences.
 
 This extension is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -18,18 +18,26 @@ GNU Lesser General Public License for more details.
 You should have received a copy of the GNU Lesser General Public License
 along with this extension.  If not, see <http://www.gnu.org/licenses/>.
 
-Author: Elia Argentieri
-Modified by: Michael Carroll
+Author: Elia Argentieri, Michael Carroll
+Modified by: Jon Harald Søby
 
 -->
-<interface domain="BingWallpaper">
+<interface domain="CommonsWallpaper">
   <requires lib="gtk+" version="3.18"/>
   <!-- interface-license-type lgplv3 -->
-  <!-- interface-name BingWallpaperChanger preferences -->
+  <!-- interface-name CommonsWallpaperChanger preferences -->
   <!-- interface-copyright 2017 -->
   <!-- interface-authors Elia Argentieri -->
   <object class="GtkAdjustment" id="adjustment1">
-    <property name="upper">7</property>
+    <property name="upper">50</property>
+    <property name="value">10</property>
+    <property name="step_increment">1</property>
+    <property name="page_increment">10</property>
+  </object>
+  <object class="GtkAdjustment" id="adjustment2">
+    <property name="lower">1</property>
+    <property name="upper">168</property>
+    <property name="value">24</property>
     <property name="step_increment">1</property>
     <property name="page_increment">10</property>
   </object>
@@ -231,7 +239,7 @@ Modified by: Michael Carroll
                             <property name="halign">end</property>
                             <property name="hexpand">True</property>
                             <property name="action">select-folder</property>
-                            <property name="title" translatable="yes">Bing Wallpaper pictures folder</property>
+                            <property name="title" translatable="yes">Commons Wallpaper pictures folder</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
@@ -299,7 +307,7 @@ Modified by: Michael Carroll
                           <object class="GtkLabel" id="days_delete_after_label">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Days to store wallpapers before deleting:</property>
+                            <property name="label" translatable="yes">Number of wallpapers to store before deleting oldest:</property>
                           </object>
                           <packing>
                             <property name="left_attach">0</property>
@@ -324,35 +332,12 @@ Modified by: Michael Carroll
                     </child>
                   </object>
                 </child>
-              </object>
-            </child>
-            <child type="label_item">
-              <placeholder/>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">2</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkFrame" id="market_frame">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="label_xalign">0</property>
-            <property name="shadow_type">in</property>
-            <child>
-              <object class="GtkListBox" id="market_listbox">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="selection_mode">none</property>
                 <child>
-                  <object class="GtkListBoxRow" id="market_listboxrow">
+                  <object class="GtkListBoxRow" id="hours_between_refresh_listboxrow">
                     <property name="visible">True</property>
-                    <property name="can_focus">False</property>
+                    <property name="can_focus">True</property>
                     <child>
-                      <object class="GtkGrid" id="market_grid">
+                      <object class="GtkGrid" id="hours_between_refresh_grid">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="margin_left">12</property>
@@ -361,13 +346,10 @@ Modified by: Michael Carroll
                         <property name="margin_bottom">12</property>
                         <property name="column_spacing">32</property>
                         <child>
-                          <object class="GtkLabel" id="market_label">
+                          <object class="GtkLabel" id="hours_between_refresh_label">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="halign">start</property>
-                            <property name="hexpand">True</property>
-                            <property name="label" translatable="yes">Bing locale:</property>
-                            <property name="wrap">True</property>
+                            <property name="label" translatable="yes">Hours between automatic updates:	</property>
                           </object>
                           <packing>
                             <property name="left_attach">0</property>
@@ -375,30 +357,18 @@ Modified by: Michael Carroll
                           </packing>
                         </child>
                         <child>
-                          <object class="GtkLabel" id="market_description">
+                          <object class="GtkSpinButton" id="hours_between_refresh">
                             <property name="visible">True</property>
-                            <property name="can_focus">False</property>
-                            <property name="halign">start</property>
-                            <property name="hexpand">False</property>
-                            <property name="label" translatable="yes">Default is English - United States</property>
-                            <style>
-                              <class name="dim-label"/>
-                            </style>
-                          </object>
-                          <packing>
-                            <property name="left_attach">0</property>
-                            <property name="top_attach">1</property>
-                          </packing>
-                        </child>
-                        <child>
-                          <object class="GtkComboBoxText" id="market">
-                            <property name="visible">True</property>
-                            <property name="can_focus">False</property>
+                            <property name="can_focus">True</property>
+                            <property name="halign">end</property>
+                            <property name="hexpand">True</property>
+                            <property name="text" translatable="yes">0</property>
+                            <property name="adjustment">adjustment2</property>
+                            <property name="numeric">True</property>
                           </object>
                           <packing>
                             <property name="left_attach">1</property>
                             <property name="top_attach">0</property>
-                            <property name="height">2</property>
                           </packing>
                         </child>
                       </object>
@@ -414,7 +384,7 @@ Modified by: Michael Carroll
           <packing>
             <property name="expand">False</property>
             <property name="fill">True</property>
-            <property name="position">3</property>
+            <property name="position">2</property>
           </packing>
         </child>
         <child>
@@ -523,7 +493,7 @@ Modified by: Michael Carroll
           <object class="GtkImage" id="logo">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="pixbuf">icons/bing-yellow.svg</property>
+            <property name="pixbuf">icons/commons-color.svg</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -536,7 +506,7 @@ Modified by: Michael Carroll
           <object class="GtkLabel" id="extension_name">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label">&lt;b&gt;Bing Wallpaper Changer&lt;/b&gt;</property>
+            <property name="label">&lt;b&gt;Commons Wallpaper Changer&lt;/b&gt;</property>
             <property name="use_markup">True</property>
           </object>
           <packing>
@@ -586,7 +556,7 @@ Modified by: Michael Carroll
           <object class="GtkLabel" id="extension_description">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Changes your wallpaper daily to the Bing picture of the day for your region. Displays the picture description and copyright information.</property>
+            <property name="label" translatable="yes">Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures.</property>
             <property name="justify">center</property>
             <property name="wrap">True</property>
           </object>
@@ -605,7 +575,7 @@ Modified by: Michael Carroll
             <child>
               <object class="GtkLabel" id="maintainer_label">
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">Maintained by Michael Carroll</property>
+                <property name="label" translatable="yes">Maintained by Jon Harald Søby</property>
               </object>
               <packing>
                 <property name="expand">False</property>
@@ -616,7 +586,7 @@ Modified by: Michael Carroll
             <child>
               <object class="GtkLabel" id="email_label">
                 <property name="can_focus">False</property>
-                <property name="label">ineffable@gmail.com</property>
+                <property name="label">&lt;jhsoby@gmail.com&gt;</property>
                 <property name="use_markup">True</property>
               </object>
               <packing>
@@ -634,14 +604,14 @@ Modified by: Michael Carroll
         </child>
         <child>
           <object class="GtkLinkButton" id="homepage_link">
-            <property name="label" translatable="yes">https://github.com/neffo/bing-wallpaper-gnome-extension</property>
+            <property name="label" translatable="yes">https://github.com/jhsoby/commons-wallpaper-gnome-extension</property>
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="receives_default">True</property>
             <property name="events"/>
             <property name="halign">center</property>
             <property name="relief">none</property>
-            <property name="uri">https://github.com/neffo/bing-wallpaper-gnome-extension</property>
+            <property name="uri">https://github.com/jhsoby/commons-wallpaper-gnome-extension</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -658,7 +628,7 @@ Modified by: Michael Carroll
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">Based on NASA APOD Gnome shell extension by Elia Argentieri</property>
+                <property name="label" translatable="yes">Based on the Bing Wallpaper Gnome shell extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Elia Argentieri.</property>
                 <property name="justify">center</property>
                 <property name="wrap">True</property>
                 <attributes>

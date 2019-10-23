@@ -1,0 +1,141 @@
+# Wikimedia Commons wallpaper changer.
+# Copyright (C) 2019
+# This file is distributed under the same license as the Wikimedia Commons wallpaper changer package.
+# Jon Harald Søby <jhsoby@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-23 02:59+0200\n"
+"PO-Revision-Date: 2019-10-23 03:33+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: Jon Harald Søby <jhsoby@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb\n"
+
+#: Settings.ui.h:1
+msgid "Hide the indicator"
+msgstr "Skjul indikatoren"
+
+#: Settings.ui.h:2
+msgid "Set background image"
+msgstr "Sett bakgrunnsbilde"
+
+#: Settings.ui.h:3
+msgid "Set lock screen image"
+msgstr "Sett låseskjermbilde"
+
+#: Settings.ui.h:4
+msgid "Download folder:"
+msgstr "Nedlastingsmappe:"
+
+#: Settings.ui.h:5
+msgid "Commons Wallpaper pictures folder"
+msgstr "Mappe for bakgrunner fra Commons"
+
+#: Settings.ui.h:6
+msgid "Delete previously downloaded wallpapers:"
+msgstr "Slett tidligere nedlastede bakgrunner:"
+
+#: Settings.ui.h:7
+msgid "Number of wallpapers to store before deleting oldest:"
+msgstr "Antall bakgrunner som skal lagres før de eldste slettes:"
+
+#: Settings.ui.h:8
+msgid "Hours between automatic updates:"
+msgstr "Timer mellom automatiske oppdateringer:"
+
+#: Settings.ui.h:9
+msgid "Screen resolution:"
+msgstr "Skjermoppløsning:"
+
+#: Settings.ui.h:10
+msgid "Override automatic resolution selection"
+msgstr "Overstyr den automatiske skjermoppløsningen"
+
+#: Settings.ui.h:11 extension.js:137
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: Settings.ui.h:12
+msgid "Gnome shell extension version: "
+msgstr "Gnome-shellutvidelsesversjon:"
+
+#: Settings.ui.h:13
+msgid ""
+"Changes your wallpaper to selected pictures from Wikimedia Commons at set "
+"intervals. Displays the title, creator and license of the pictures."
+msgstr ""
+"Endrer bakgrunnen din til utvalgte bilder frå Wikimedia Commons med jevne "
+"mellomrom. Viser tittelen, opphavspersonen og lisensen til bildene."
+
+#: Settings.ui.h:14
+msgid "Maintained by Jon Harald Søby"
+msgstr "Vedlikeholdes av Jon Harald Søby"
+
+#: Settings.ui.h:15
+msgid "https://github.com/jhsoby/commons-wallpaper-gnome-extension"
+msgstr "https://github.com/jhsoby/commons-wallpaper-gnome-extension"
+
+#: Settings.ui.h:16
+msgid ""
+"Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was "
+"again based on the NASA APOD Gnome shell extension by Ella Argentieri."
+msgstr ""
+"Basert på Gnome-utvidelsen Bing Wallpaper av Michael Carroll, som igjen "
+"er basert på Gnome-utvidelsen NASA APOD av Ella Argentieri."
+
+#: Settings.ui.h:17
+msgid ""
+"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
+"See the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+"\">GNU General Public License, version 3 or later</a> for details.</span>"
+msgstr ""
+"<span size=\"small\">Dette programmet kommer HELT UTEN GARANTI.\n"
+"Se <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
+"General Public License, versjon 3 eller senere</a> for detaljer.</span>"
+
+#: Settings.ui.h:19
+msgid "About"
+msgstr "Om"
+
+#: extension.js:76 extension.js:79
+msgid "minutes"
+msgstr "minutter"
+
+#: extension.js:82
+msgid "days"
+msgstr "dager"
+
+#: extension.js:85
+msgid "hours"
+msgstr "timer"
+
+#: extension.js:131
+msgid "(No refresh scheduled)"
+msgstr "(Ingen oppdatering på agendaen)"
+
+#: extension.js:132 extension.js:133 extension.js:134
+msgid "Awaiting refresh …"
+msgstr "Venter på oppdatering …"
+
+#: extension.js:135
+msgid "Copy image URL to clipboard"
+msgstr "Kopier bildets URL til utklippstavlen"
+
+#: extension.js:136
+msgid "Refresh now"
+msgstr "Oppdater nå"
+
+#: extension.js:169
+msgid "Next refresh"
+msgstr "Neste oppdatering"
+
+#: extension.js:313
+msgid "No wallpaper available"
+msgstr "Ingen bakgrunn tilgjengelig"
