@@ -41,12 +41,12 @@ Gnome 3.18+ (Ubuntu Gnome 16.04+, Fedora 23+)
 
 To install, you can clone the extension with Git:
 
-`got clone https://github.com/jhsoby/commons-wallpaper-gnome-extension.git $HOME/.local/share/gnome-shell/extensions/CommonsWallpaper@jhsoby-gmail.com`
+`git clone https://github.com/jhsoby/commons-wallpaper-gnome-extension.git $HOME/.local/share/gnome-shell/extensions/CommonsWallpaper@jhsoby-gmail.com`
 
 or create a zip file by doing this
 
-`git clone https://github.com/jhsoby/commons-wallpaper-gnome-extension.git`
-`cd bing-wallpaper-gnome-extension`
+`git clone https://github.com/jhsoby/commons-wallpaper-gnome-extension.git`  
+`cd bing-wallpaper-gnome-extension`  
 `sh buildzip.sh`
 
 You can then install this file using the Gnome Tweak Tool. Please note that to install an extension correctly the zip must
