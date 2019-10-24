@@ -166,7 +166,7 @@ const CommonsWallpaperIndicator = new Lang.Class({
             this.clipboardItem.setSensitive(!this._updatePending && this.imageURL != "");
             this.titleItem.setSensitive(!this._updatePending && this.imageinfolink != "");
             this.licenseItem.setSensitive(!this._updatePending);
-            this.refreshduetext = _("Next refresh: $1 ($2)").replace('$1', this.refreshdue.format("%X").replace('$2', friendly_time_diff(this.refreshdue));
+            this.refreshduetext = _("Next refresh: $1 ($2)").replace('$1', this.refreshdue.format("%X")).replace('$2', friendly_time_diff(this.refreshdue));
             this.refreshDueItem.label.set_text(this.refreshduetext); //
         }));
         this._restartTimeout(60); // wait 60 seconds before performing refresh
