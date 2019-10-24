@@ -166,7 +166,7 @@ const CommonsWallpaperIndicator = new Lang.Class({
             this.clipboardItem.setSensitive(!this._updatePending && this.imageURL != "");
             this.titleItem.setSensitive(!this._updatePending && this.imageinfolink != "");
             this.licenseItem.setSensitive(!this._updatePending);
-            this.refreshduetext = _("Next refresh") + ": " + this.refreshdue.format("%X") + " (" + friendly_time_diff(this.refreshdue) + ")";
+            this.refreshduetext = _("Next refresh: $1 ($2)").replace('$1', this.refreshdue.format("%X").replace('$2', friendly_time_diff(this.refreshdue));
             this.refreshDueItem.label.set_text(this.refreshduetext); //
         }));
         this._restartTimeout(60); // wait 60 seconds before performing refresh
@@ -263,12 +263,12 @@ const CommonsWallpaperIndicator = new Lang.Class({
                 this.title = _('(No description …)');
             }
             if ('Artist' in imageinfo['extmetadata']) {
-                this.creator = shortField(_('Creator: ') + imageinfo['extmetadata']['Artist']['value']);
+                this.creator = shortField(_('Creator: $1').replace('$1', imageinfo['extmetadata']['Artist']['value']));
             } else {
                 this.creator = _('(No creator listed …)');
             }
             this.imageinfolink = imageinfo['descriptionurl'];
-            this.license = shortField(_('License: ') + imageinfo['extmetadata']['LicenseShortName']['value']);
+            this.license = shortField(_('License: $1').replace('$1', imageinfo['extmetadata']['LicenseShortName']['value']));
             if ('LicenseUrl' in imageinfo['extmetadata']) {
                 this.licenselink = imageinfo['extmetadata']['LicenseUrl']['value'];
             } else {

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-23 13:24+0200\n"
+"POT-Creation-Date: 2019-10-24 16:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,7 +125,7 @@ msgid "Refresh now"
 msgstr ""
 
 #: extension.js:169
-msgid "Next refresh"
+msgid "Next refresh: $1 ($2)"
 msgstr ""
 
 #: extension.js:263
@@ -133,7 +133,7 @@ msgid "(No description …)"
 msgstr ""
 
 #: extension.js:266
-msgid "Creator: "
+msgid "Creator: $1"
 msgstr ""
 
 #: extension.js:268
@@ -141,7 +141,7 @@ msgid "(No creator listed …)"
 msgstr ""
 
 #: extension.js:271
-msgid "License: "
+msgid "License: $1"
 msgstr ""
 
 #: extension.js:313
