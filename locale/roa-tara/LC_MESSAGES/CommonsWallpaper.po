@@ -1,145 +1,135 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to Norwegian Nynorsk (norsk nynorsk)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Tarantino (tarandíne)
 # Exported from translatewiki.net
 #
-# Author: Jon Harald Søby
+# Author: Joetaras
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: 1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-24 16:46+0200\n"
-"PO-Revision-Date: 2019-10-28 14:56:42+0000\n"
-"Last-Translator: Jon Harald Søby <jhsoby@gmail.com>\n"
-"Language-Team: \n"
-"Language: nn\n"
-"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-10-28 14:56:43+0000\n"
+"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nap-x-tara\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _;N_\n"
-"X-Poedit-Basepath: ../../..\n"
-"X-Poedit-SearchPath-0: extension.js\n"
-"X-Poedit-SearchPath-1: Settings.ui.h\n"
-"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "Skjul indikatoren"
+msgstr "Scunne l'indicatore"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "Sett bakgrunnsbildete"
+msgstr "'Mboste l'immaggine de sfunne"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "Set låseskjermbilete"
+msgstr "'Mboste l'immaggine d'u scherme bloccate"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Nedlastingsmappe:"
+msgstr "Scareche 'a cartelle:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr "Biletmappe for bakgrunnar frå Commons"
+msgstr "Cartelle de le immaggine de sfunne comune"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr "Slett tidlegare nedlasta bakgrunnar:"
+msgstr "Scangìlle le sfunne scarecate apprime:"
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr "Tal på bakgrunnar som skal lagrast før dei eldste vert sletta:"
+msgstr "Numere de sfunne da reggistrà apprime de scangellà le cchiù vicchie:"
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr "Timar mellom automatiske oppdateringar:"
+msgstr "Ore 'mbrà le aggiornaminde automatece:"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Skjermoppløysing:"
+msgstr "Resoluzione d'u scherme:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "Overstyr automatisk val av skjermoppløysing"
+msgstr "Sovrascrive 'u scacchiamende d'a resoluzione automateche"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Innstillingar"
+msgstr "'Mbostaziune"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "Gnome-shellutvidingsversjon:"
+msgstr "Versione de l'estenzione Gnome shell:"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr "Endrar bakgrunnen din til utvalde bilete frå Wikimedia Commons med jamne mellomrom. Synar tittelen, opphavspersonen og lisensen til bileta."
+msgstr "Cange 'u sfunne tune cu immaggine scacchiate da Wikimedia Commons a 'ndervalle prestabbilite. 'Ndruche 'u titole, 'u ccrejatore e 'a licenze de le immaggine."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Vert halde ved like av Jon Harald Søby"
+msgstr "Mandenute da Jon Harald Søby"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr "Basert på Gnome-utvidinga Bing Wallpaper av Michael Carroll, som igjen var basert på Gnome-utvidinga NASA APOD av Ella Argentieri."
+msgstr "Basate sus a l'estenzione Bing Wallpaper Gnome de Michael Carroll, 'a quale se base sus a l'estenzione NASA APOD Gnome shell de Ella Argentieri."
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr "<span size=\"small\">Dette programmet kjem ABSOLUTT UTAN GARANTI.\nSjå <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, versjon 3 eller nyare</a> for detaljar.</span>"
+msgstr "<span size=\"small\">Stu programme avène cu SENZA NISCIUNA GARANZIE.\n'Ndruche 'a <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">Licenze GNU General Public, versione 3 o cchiù nuève</a> pe dettaglie.</span>"
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "Om"
+msgstr "Sus a"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "minutt"
+msgstr "minute"
 
 #: extension.js:82
 msgid "days"
-msgstr "dagar"
+msgstr "sciurne"
 
 #: extension.js:85
 msgid "hours"
-msgstr "timar"
+msgstr "ore"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr "(Ingen oppdatering på agendaen)"
+msgstr "(Nisciune aggiornamende schedulate)"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr "Ventar på oppdatering …"
+msgstr "Stoche aspette l'aggiornamende..."
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr "Kopier URL-en til biletet til utklippstavla"
+msgstr "Copie l'URL de l'immaggine jndr'à l'appunde"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr "Oppdater no"
+msgstr "Aggiorne mò"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr "Neste oppdatering: $1 ($2)"
+msgstr "Prossime aggiornamende: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(Ingen skildring …)"
+msgstr "(Nisciuna descrizione...)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr "Opphavsperson: $1"
+msgstr "Ccrejatore: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr "(Ingen opphavsperson nemnt …)"
+msgstr "(Nisciune ccrejatore elengate ...)"
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "Lisens: $1"
+msgstr "Licenze: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "Ingen bakgrunn tilgjengeleg"
+msgstr "Nisciune sfunne disponibbele"
 

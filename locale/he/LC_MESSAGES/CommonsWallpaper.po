@@ -1,21 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Hebrew (עברית)
+# Exported from translatewiki.net
 #
-#, fuzzy
+# Author: דגש חזק
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-28 23:12+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
+""
+"PO-Revision-Date: 2019-10-28 14:56:42+0000\n"
+"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
@@ -39,11 +35,11 @@ msgstr ""
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr ""
+msgstr "מחק טפטים שהורדו בעבר:"
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr ""
+msgstr "מספר הטפטים הקיימים לפני המחיקה הראשונה:"
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
@@ -59,37 +55,27 @@ msgstr ""
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr ""
+msgstr "הגדרות"
 
 #: Settings.ui.h:12
+#, fuzzy
 msgid "Gnome shell extension version:"
-msgstr ""
+msgstr "גרסת סיומת מעטפת זעירה:/"
 
 #: Settings.ui.h:13
-msgid ""
-"Changes your wallpaper to selected pictures from Wikimedia Commons at set "
-"intervals. Displays the title, creator and license of the pictures."
-msgstr ""
+msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
+msgstr "משנה את הטפטים שלך לתמונות שנבחרו מתוך [[c:|ויקישיתוף]] בפרקי זמן קבועים. מציג את הכותרת, היוצר והרישיון של התמונות."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
 msgstr ""
 
-#: Settings.ui.h:15
-msgid "https://github.com/jhsoby/commons-wallpaper-gnome-extension"
-msgstr ""
-
 #: Settings.ui.h:16
-msgid ""
-"Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was "
-"again based on the NASA APOD Gnome shell extension by Ella Argentieri."
+msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
 msgstr ""
 
 #: Settings.ui.h:17
-msgid ""
-"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
-"See the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-"\">GNU General Public License, version 3 or later</a> for details.</span>"
+msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
 msgstr ""
 
 #: Settings.ui.h:19
@@ -102,11 +88,11 @@ msgstr ""
 
 #: extension.js:82
 msgid "days"
-msgstr ""
+msgstr "ימים"
 
 #: extension.js:85
 msgid "hours"
-msgstr ""
+msgstr "שעות"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
@@ -126,11 +112,11 @@ msgstr ""
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr ""
+msgstr "רענון הבא: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr ""
+msgstr "(אין תיאור...)"
 
 #: extension.js:266
 msgid "Creator: $1"
@@ -147,3 +133,4 @@ msgstr ""
 #: extension.js:313
 msgid "No wallpaper available"
 msgstr ""
+

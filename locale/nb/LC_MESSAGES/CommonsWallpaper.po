@@ -1,26 +1,26 @@
-# Wikimedia Commons wallpaper changer.
-# Copyright (C) 2019
-# This file is distributed under the same license as the Wikimedia Commons wallpaper changer package.
-# Jon Harald Søby <jhsoby@gmail.com>, 2019.
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Norwegian Bokmål (norsk bokmål)
+# Exported from translatewiki.net
 #
 msgid ""
 msgstr ""
+""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-23 12:41+0200\n"
-"PO-Revision-Date: 2019-10-23 12:42+0200\n"
+"POT-Creation-Date: 2019-10-24 16:45+0200\n"
+"PO-Revision-Date: 2019-10-28 14:56:42+0000\n"
 "Last-Translator: Jon Harald Søby <jhsoby@gmail.com>\n"
 "Language-Team: \n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-KeywordsList: _;N_\n"
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: extension.js\n"
 "X-Poedit-SearchPath-1: Settings.ui.h\n"
+"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
@@ -67,42 +67,24 @@ msgid "Settings"
 msgstr "Innstillinger"
 
 #: Settings.ui.h:12
-msgid "Gnome shell extension version: "
+msgid "Gnome shell extension version:"
 msgstr "Gnome-shellutvidelsesversjon:"
 
 #: Settings.ui.h:13
-msgid ""
-"Changes your wallpaper to selected pictures from Wikimedia Commons at set "
-"intervals. Displays the title, creator and license of the pictures."
-msgstr ""
-"Endrer bakgrunnen din til utvalgte bilder frå Wikimedia Commons med jevne "
-"mellomrom. Viser tittelen, opphavspersonen og lisensen til bildene."
+msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
+msgstr "Endrer bakgrunnen din til utvalgte bilder frå Wikimedia Commons med jevne mellomrom. Viser tittelen, opphavspersonen og lisensen til bildene."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
 msgstr "Vedlikeholdes av Jon Harald Søby"
 
-#: Settings.ui.h:15
-msgid "https://github.com/jhsoby/commons-wallpaper-gnome-extension"
-msgstr "https://github.com/jhsoby/commons-wallpaper-gnome-extension"
-
 #: Settings.ui.h:16
-msgid ""
-"Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was "
-"again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr ""
-"Basert på Gnome-utvidelsen Bing Wallpaper av Michael Carroll, som igjen er "
-"basert på Gnome-utvidelsen NASA APOD av Ella Argentieri."
+msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
+msgstr "Basert på Gnome-utvidelsen Bing Wallpaper av Michael Carroll, som igjen er basert på Gnome-utvidelsen NASA APOD av Ella Argentieri."
 
 #: Settings.ui.h:17
-msgid ""
-"<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\n"
-"See the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-"\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr ""
-"<span size=\"small\">Dette programmet kommer HELT UTEN GARANTI.\n"
-"Se <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU "
-"General Public License, versjon 3 eller senere</a> for detaljer.</span>"
+msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
+msgstr "<span size=\"small\">Dette programmet kommer HELT UTEN GARANTI.\nSe <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, versjon 3 eller senere</a> for detaljer.</span>"
 
 #: Settings.ui.h:19
 msgid "About"
@@ -137,25 +119,26 @@ msgid "Refresh now"
 msgstr "Oppdater nå"
 
 #: extension.js:169
-msgid "Next refresh"
-msgstr "Neste oppdatering"
+msgid "Next refresh: $1 ($2)"
+msgstr "Neste oppdatering: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
 msgstr "(Ingen beskrivelse …)"
 
 #: extension.js:266
-msgid "Creator: "
-msgstr "Opphavsperson: "
+msgid "Creator: $1"
+msgstr "Opphavsperson: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
 msgstr "(Ingen opphavsperson nevnt …)"
 
 #: extension.js:271
-msgid "License: "
-msgstr "Lisens: "
+msgid "License: $1"
+msgstr "Lisens: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
 msgstr "Ingen bakgrunn tilgjengelig"
+

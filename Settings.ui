@@ -525,7 +525,7 @@ Modified by: Jon Harald Søby
               <object class="GtkLabel" id="extension_version_label">
                 <property name="can_focus">False</property>
                 <property name="halign">end</property>
-                <property name="label" translatable="yes">Gnome shell extension version: </property>
+                <property name="label" translatable="yes">Gnome shell extension version:</property>
               </object>
               <packing>
                 <property name="expand">False</property>

@@ -1,0 +1,140 @@
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Message documentation (Message documentation)
+# Exported from translatewiki.net
+#
+# Author: Jon Harald Søby
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2019-10-28 14:56:45+0000\n"
+"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: qqq\n"
+"X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: Settings.ui.h:1
+msgid "Hide the indicator"
+msgstr "Option in the settings to hide the indicator shown in Gnome's top bar."
+
+#: Settings.ui.h:2
+msgid "Set background image"
+msgstr "Option in the settings on whether or not the background picture should be set"
+
+#: Settings.ui.h:3
+msgid "Set lock screen image"
+msgstr "Option in the settings on whether or not the lock screen picture should be set"
+
+#: Settings.ui.h:4
+msgid "Download folder:"
+msgstr "Which folder the wallpapers should be downloaded to."
+
+#: Settings.ui.h:5
+msgid "Commons Wallpaper pictures folder"
+msgstr "Tooltip explaining what the option for changing the folder does."
+
+#: Settings.ui.h:6
+msgid "Delete previously downloaded wallpapers:"
+msgstr "Option in the settings for whether or not previously downloaded wallpapers should be deleted."
+
+#: Settings.ui.h:7
+msgid "Number of wallpapers to store before deleting oldest:"
+msgstr "Option in the settings to choose how many wallpapers should be kept before the oldest one is deleted."
+
+#: Settings.ui.h:8
+msgid "Hours between automatic updates:"
+msgstr "Option in the settings to choose how often the wallpaper should be changed."
+
+#: Settings.ui.h:9
+msgid "Screen resolution:"
+msgstr "Option in the settings to override which size wallpapers should be downloaded (default is to match the resolution)"
+
+#: Settings.ui.h:10
+msgid "Override automatic resolution selection"
+msgstr "Explanation of what the field for choosing screen resolution does."
+
+#: Settings.ui.h:11 extension.js:137
+msgid "Settings"
+msgstr "Button to open the settings window from the widget."
+
+#: Settings.ui.h:12
+msgid "Gnome shell extension version:"
+msgstr "Field in the \"about\" section of the settings showing which version of the extension this is."
+
+#: Settings.ui.h:13
+msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
+msgstr "Description of the extension in the \"about\" section of the settings."
+
+#: Settings.ui.h:14
+msgid "Maintained by Jon Harald Søby"
+msgstr "Text in the \"about\" section of the setting."
+
+#: Settings.ui.h:15
+#, ignored
+msgid "https://github.com/jhsoby/commons-wallpaper-gnome-extension"
+msgstr ""
+
+#: Settings.ui.h:16
+msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
+msgstr "Text in the \"about\" section of the settings."
+
+#: Settings.ui.h:17
+msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
+msgstr "Disclaimer shown in the \"about\" section of the settings."
+
+#: Settings.ui.h:19
+msgid "About"
+msgstr "Title for the \"about\" tab in the settings."
+
+#: extension.js:76 extension.js:79
+msgid "minutes"
+msgstr "Text showing how many minutes until the wallpaper will be updated (is prefixed with the number)"
+
+#: extension.js:82
+msgid "days"
+msgstr "Text showing how many days until the wallpaper will be updated (is prefixed with the number)"
+
+#: extension.js:85
+msgid "hours"
+msgstr "Text showing how many hours until the wallpaper will be updated (is prefixed with the number)"
+
+#: extension.js:131
+msgid "(No refresh scheduled)"
+msgstr "Text shown in the widget it no refresh is scheduled (usually if there are network connectivity issues)"
+
+#: extension.js:132 extension.js:133 extension.js:134
+msgid "Awaiting refresh …"
+msgstr "Text shown in the widget if no refresh has happened yet since Gnome started."
+
+#: extension.js:135
+msgid "Copy image URL to clipboard"
+msgstr "Button in the widget to copy the URL of the picture to the clipboard."
+
+#: extension.js:136
+msgid "Refresh now"
+msgstr "Button in the widget to refresh the wallpaper without waiting the specified time."
+
+#: extension.js:169
+msgid "Next refresh: $1 ($2)"
+msgstr "Text in the widget showing when the next widget will happen.\n\n$1 is the absolute time the refresh is set to happen\n\n$2 is the relative time (\"in X minutes/hours/days\")"
+
+#: extension.js:263
+msgid "(No description …)"
+msgstr "Placeholder text shown in the widget if no refresh has happened since Gnome started."
+
+#: extension.js:266
+msgid "Creator: $1"
+msgstr "Text in the widget showing who is the creator of the picture.\n\n$1 is the creator"
+
+#: extension.js:268
+msgid "(No creator listed …)"
+msgstr "Placeholder text shown if there is no creator listed on the Commons file page."
+
+#: extension.js:271
+msgid "License: $1"
+msgstr "Text in the widget showing the license of the picture (takes you to the license text if clicked)\n\n$1 is the license"
+
+#: extension.js:313
+msgid "No wallpaper available"
+msgstr "Text shown if no wallpaper is available (should only happen in case of network connectivity issues)"
+

@@ -18,8 +18,6 @@ let settings;
 
 let resolutions = [ 'auto', '1920x1200', '1920x1080', '1366x768', '1280x720', '1024x768', '800x600'];
 
-const CommonsImageURL = "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mbl=1&mkt=";
-
 function init() {
     settings = Utils.getSettings(Me);
     Convenience.initTranslations("CommonsWallpaper");
@@ -32,7 +30,7 @@ function buildPrefsWidget(){
     buildable.add_from_file( Me.dir.get_path() + '/Settings.ui' );
     let box = buildable.get_object('prefs_widget');
 
-    buildable.get_object('extension_version').set_text(Me.metadata.version.toString());
+    buildable.get_object('extension_version').set_text(" " + Me.metadata.version.toString());
     buildable.get_object('extension_name').set_text(Me.metadata.name.toString());
 
     let hideSwitch = buildable.get_object('hide');
