@@ -1,145 +1,135 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to Norwegian Nynorsk (norsk nynorsk)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to French (français)
 # Exported from translatewiki.net
 #
-# Author: Jon Harald Søby
+# Author: Gomoko
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: 1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-24 16:46+0200\n"
-"PO-Revision-Date: 2019-10-28 14:56:42+0000\n"
-"Last-Translator: Jon Harald Søby <jhsoby@gmail.com>\n"
-"Language-Team: \n"
-"Language: nn\n"
-"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2019-10-28 14:56:41+0000\n"
+"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _;N_\n"
-"X-Poedit-Basepath: ../../..\n"
-"X-Poedit-SearchPath-0: extension.js\n"
-"X-Poedit-SearchPath-1: Settings.ui.h\n"
-"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "Skjul indikatoren"
+msgstr "Masquer l’indicateur"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "Sett bakgrunnsbildete"
+msgstr "Définir l’image de fond"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "Set låseskjermbilete"
+msgstr "Définir l’image d’écran verrouillé"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Nedlastingsmappe:"
+msgstr "Télécharger le dossier :"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr "Biletmappe for bakgrunnar frå Commons"
+msgstr "Dossier des images de papier-peint communes"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr "Slett tidlegare nedlasta bakgrunnar:"
+msgstr "Supprimer les papiers-peints précédemment téléchargés :"
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr "Tal på bakgrunnar som skal lagrast før dei eldste vert sletta:"
+msgstr "Nombre de papiers-peints à stocker avant de supprimer les plus anciens :"
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr "Timar mellom automatiske oppdateringar:"
+msgstr "Heures entre les mises à jour automatiques :"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Skjermoppløysing:"
+msgstr "Résolution d’écran :"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "Overstyr automatisk val av skjermoppløysing"
+msgstr "Écraser la sélection automatique de la résolution"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Innstillingar"
+msgstr "Paramètres"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "Gnome-shellutvidingsversjon:"
+msgstr "Version de l’extension Gnome shell :"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr "Endrar bakgrunnen din til utvalde bilete frå Wikimedia Commons med jamne mellomrom. Synar tittelen, opphavspersonen og lisensen til bileta."
+msgstr "Modifie votre papier-peint pour sélectionner des images de Wikimédia Communs à intervalles réguliers. Affiche le titre, l’auteur et la licence des images."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Vert halde ved like av Jon Harald Søby"
+msgstr "Maintenu par Jon Harald Søby"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr "Basert på Gnome-utvidinga Bing Wallpaper av Michael Carroll, som igjen var basert på Gnome-utvidinga NASA APOD av Ella Argentieri."
+msgstr "Basé sur l’extension Papier-pein Gnome Bing de Michael Carroll, qui elle-même est basée sur l’extension Gnome shell de NASA APOD par Ella Argentieri."
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr "<span size=\"small\">Dette programmet kjem ABSOLUTT UTAN GARANTI.\nSjå <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, versjon 3 eller nyare</a> for detaljar.</span>"
+msgstr "<span size=\"small\">Ce programme est fourni sans AUCUNE GARANTIE.\nVoyez la <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">Licence générale publique GNU, version 3 ou plus</a> pour les détails.</span>"
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "Om"
+msgstr "À propos"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "minutt"
+msgstr "minutes"
 
 #: extension.js:82
 msgid "days"
-msgstr "dagar"
+msgstr "jours"
 
 #: extension.js:85
 msgid "hours"
-msgstr "timar"
+msgstr "heures"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr "(Ingen oppdatering på agendaen)"
+msgstr "(Aucun rafraîchissement programmé)"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr "Ventar på oppdatering …"
+msgstr "Attente de rafraîchissement…"
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr "Kopier URL-en til biletet til utklippstavla"
+msgstr "Copier l’URL de l’image dans le presse-papier"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr "Oppdater no"
+msgstr "Rafraîchir maintenant"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr "Neste oppdatering: $1 ($2)"
+msgstr "Prochain rafraîchissement : $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(Ingen skildring …)"
+msgstr "(Aucune description…)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr "Opphavsperson: $1"
+msgstr "Auteur : $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr "(Ingen opphavsperson nemnt …)"
+msgstr "(Aucun auteur listé…)"
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "Lisens: $1"
+msgstr "Licence : $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "Ingen bakgrunn tilgjengeleg"
+msgstr "Aucun papier-peint disponible"
 

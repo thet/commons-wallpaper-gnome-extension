@@ -1,145 +1,136 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to Norwegian Nynorsk (norsk nynorsk)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Hebrew (עברית)
 # Exported from translatewiki.net
 #
-# Author: Jon Harald Søby
+# Author: דגש חזק
 msgid ""
 msgstr ""
 ""
-"Project-Id-Version: 1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-24 16:46+0200\n"
 "PO-Revision-Date: 2019-10-28 14:56:42+0000\n"
-"Last-Translator: Jon Harald Søby <jhsoby@gmail.com>\n"
-"Language-Team: \n"
-"Language: nn\n"
-"MIME-Version: 1.0\n"
+"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: _;N_\n"
-"X-Poedit-Basepath: ../../..\n"
-"X-Poedit-SearchPath-0: extension.js\n"
-"X-Poedit-SearchPath-1: Settings.ui.h\n"
-"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "Skjul indikatoren"
+msgstr ""
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "Sett bakgrunnsbildete"
+msgstr ""
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "Set låseskjermbilete"
+msgstr ""
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Nedlastingsmappe:"
+msgstr ""
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr "Biletmappe for bakgrunnar frå Commons"
+msgstr ""
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr "Slett tidlegare nedlasta bakgrunnar:"
+msgstr "מחק טפטים שהורדו בעבר:"
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr "Tal på bakgrunnar som skal lagrast før dei eldste vert sletta:"
+msgstr "מספר הטפטים הקיימים לפני המחיקה הראשונה:"
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr "Timar mellom automatiske oppdateringar:"
+msgstr ""
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Skjermoppløysing:"
+msgstr ""
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "Overstyr automatisk val av skjermoppløysing"
+msgstr ""
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Innstillingar"
+msgstr "הגדרות"
 
 #: Settings.ui.h:12
+#, fuzzy
 msgid "Gnome shell extension version:"
-msgstr "Gnome-shellutvidingsversjon:"
+msgstr "גרסת סיומת מעטפת זעירה:/"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr "Endrar bakgrunnen din til utvalde bilete frå Wikimedia Commons med jamne mellomrom. Synar tittelen, opphavspersonen og lisensen til bileta."
+msgstr "משנה את הטפטים שלך לתמונות שנבחרו מתוך [[c:|ויקישיתוף]] בפרקי זמן קבועים. מציג את הכותרת, היוצר והרישיון של התמונות."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Vert halde ved like av Jon Harald Søby"
+msgstr ""
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr "Basert på Gnome-utvidinga Bing Wallpaper av Michael Carroll, som igjen var basert på Gnome-utvidinga NASA APOD av Ella Argentieri."
+msgstr ""
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr "<span size=\"small\">Dette programmet kjem ABSOLUTT UTAN GARANTI.\nSjå <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, versjon 3 eller nyare</a> for detaljar.</span>"
+msgstr ""
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "Om"
+msgstr ""
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "minutt"
+msgstr ""
 
 #: extension.js:82
 msgid "days"
-msgstr "dagar"
+msgstr "ימים"
 
 #: extension.js:85
 msgid "hours"
-msgstr "timar"
+msgstr "שעות"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr "(Ingen oppdatering på agendaen)"
+msgstr ""
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr "Ventar på oppdatering …"
+msgstr ""
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr "Kopier URL-en til biletet til utklippstavla"
+msgstr ""
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr "Oppdater no"
+msgstr ""
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr "Neste oppdatering: $1 ($2)"
+msgstr "רענון הבא: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(Ingen skildring …)"
+msgstr "(אין תיאור...)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr "Opphavsperson: $1"
+msgstr ""
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr "(Ingen opphavsperson nemnt …)"
+msgstr ""
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "Lisens: $1"
+msgstr ""
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "Ingen bakgrunn tilgjengeleg"
+msgstr ""
 
