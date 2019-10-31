@@ -1,11 +1,12 @@
 # Translation of Wikimedia Commons Wallpaper Gnome Extension to Hebrew (עברית)
 # Exported from translatewiki.net
 #
+# Author: YaronSh
 # Author: דגש חזק
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-28 14:56:42+0000\n"
+"PO-Revision-Date: 2019-10-31 17:27:25+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,23 +16,23 @@ msgstr ""
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr ""
+msgstr "הצג מחוון"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr ""
+msgstr "הגדר תמונת רקע"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr ""
+msgstr "הגדר תמונת נעילת מסך"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr ""
+msgstr "הורד תיקיה"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr ""
+msgstr "תיקיית תמונות רקע של ויקישיתוף"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
@@ -43,24 +44,23 @@ msgstr "מספר הטפטים הקיימים לפני המחיקה הראשונ�
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr ""
+msgstr "זמן (בשעות) בין עדכונים אוטומטיים:"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr ""
+msgstr "רזולוציית מסך:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr ""
+msgstr "עקוף את בחירות הרזולוציה האוטומטית"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
 msgstr "הגדרות"
 
 #: Settings.ui.h:12
-#, fuzzy
 msgid "Gnome shell extension version:"
-msgstr "גרסת סיומת מעטפת זעירה:/"
+msgstr "גרסת סיומת מעטפת זעירה:"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
@@ -68,7 +68,7 @@ msgstr "משנה את הטפטים שלך לתמונות שנבחרו מתוך [
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr ""
+msgstr "באדיבות Jon Harald Søby"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
@@ -80,11 +80,11 @@ msgstr ""
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr ""
+msgstr "אודות"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr ""
+msgstr "דקות"
 
 #: extension.js:82
 msgid "days"
@@ -96,19 +96,19 @@ msgstr "שעות"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr ""
+msgstr "לא תוזמן רענון"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr ""
+msgstr "ממתין לרענון"
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr ""
+msgstr "העתק קישור URL של התמונה ללוח"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr ""
+msgstr "רענן עכשיו"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
@@ -120,17 +120,17 @@ msgstr "(אין תיאור...)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr ""
+msgstr "יוצר: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr ""
+msgstr "(אין יוצר ברשימה ...)"
 
 #: extension.js:271
 msgid "License: $1"
-msgstr ""
+msgstr "רישיון: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr ""
+msgstr "אין טפטים זמינים"
 

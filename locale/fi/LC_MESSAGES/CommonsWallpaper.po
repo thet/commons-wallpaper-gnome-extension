@@ -1,8 +1,7 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to French (français)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Finnish (suomi)
 # Exported from translatewiki.net
 #
-# Author: Gomoko
-# Author: Verdy p
+# Author: Pyscowicz
 msgid ""
 msgstr ""
 ""
@@ -10,127 +9,127 @@ msgstr ""
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"Language: fi\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "Masquer l’indicateur"
+msgstr ""
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "Définir l’image de fond"
+msgstr "Aseta taustakuva"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "Définir l’image d’écran verrouillé"
+msgstr "Aseta lukitusnäytön kuva"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Télécharger le dossier :"
+msgstr "Latauskansio:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr "Dossier des images de papier-peint communes"
+msgstr "Commons taustakuvakansio"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr "Supprimer les papiers-peints précédemment téléchargés :"
+msgstr "Poista aiemmin ladatut taustakuvat:"
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr "Nombre de papiers-peints à stocker avant de supprimer les plus anciens :"
+msgstr ""
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr "Heures entre les mises à jour automatiques :"
+msgstr ""
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Résolution d’écran :"
+msgstr "Näytön resoluutio:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "Écraser la sélection automatique de la résolution"
+msgstr "Ohita automaattiset resoluutiovalinnat"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "Asetukset"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "Version de l’extension Gnome shell :"
+msgstr ""
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr "Modifie votre papier-peint pour sélectionner des images de Wikimedia Commons à intervalles réguliers. Affiche le titre, l’auteur et la licence des images."
+msgstr ""
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Maintenu par Jon Harald Søby"
+msgstr ""
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr "Basé sur l’extension Papier-peint Gnome Bing de Michael Carroll, qui elle-même est basée sur l’extension Gnome shell de NASA APOD par Ella Argentieri."
+msgstr ""
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr "<span size=\"small\">Ce programme est fourni sans AUCUNE GARANTIE.\nVoyez la <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">Licence générale publique GNU, version 3 ou plus</a> pour les détails.</span>"
+msgstr ""
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "À propos"
+msgstr "Tietoja"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "minutes"
+msgstr "minuuttia"
 
 #: extension.js:82
 msgid "days"
-msgstr "jours"
+msgstr "päivää"
 
 #: extension.js:85
 msgid "hours"
-msgstr "heures"
+msgstr "tuntia"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr "(Aucun rafraîchissement programmé)"
+msgstr ""
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr "Attente de rafraîchissement..."
+msgstr "Odottava päivitys ..."
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr "Copier l’URL de l’image dans le presse-papier"
+msgstr "Kopioi kuvan URL-osoite leikepöydälle"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr "Rafraîchir maintenant"
+msgstr "Päivitä nyt"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr "Prochain rafraîchissement : $1 ($2)"
+msgstr "Seuraava päivitys: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(Aucune description...)"
+msgstr "(Ei kuvausta …)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr "Auteur : $1"
+msgstr "Tekijä: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr "(Aucun auteur listé...)"
+msgstr ""
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "Licence : $1"
+msgstr "Lisenssi: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "Aucun papier-peint disponible"
+msgstr "Taustakuvia ei saatavana"
 

@@ -1,136 +1,135 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to French (français)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Traditional Chinese (中文（繁體）‎)
 # Exported from translatewiki.net
 #
-# Author: Gomoko
-# Author: Verdy p
+# Author: Kly
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-31 17:27:24+0000\n"
+"PO-Revision-Date: 2019-10-31 17:27:29+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"Language: zh-Hant\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "Masquer l’indicateur"
+msgstr "隱藏指示"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "Définir l’image de fond"
+msgstr "設定背景圖片"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "Définir l’image d’écran verrouillé"
+msgstr "設定螢幕鎖定圖片"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Télécharger le dossier :"
+msgstr "下載檔案夾："
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr "Dossier des images de papier-peint communes"
+msgstr "維基共享資源桌布圖片檔案夾"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr "Supprimer les papiers-peints précédemment téléchargés :"
+msgstr "刪除之前下載的桌布："
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr "Nombre de papiers-peints à stocker avant de supprimer les plus anciens :"
+msgstr "在刪除最舊桌布前所保存的桌布數量："
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr "Heures entre les mises à jour automatiques :"
+msgstr "自動更新之間的時數："
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Résolution d’écran :"
+msgstr "螢幕解析度："
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "Écraser la sélection automatique de la résolution"
+msgstr "覆蓋自動解析度選擇"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "設定"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "Version de l’extension Gnome shell :"
+msgstr "GNOME shell 擴充套件版本："
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr "Modifie votre papier-peint pour sélectionner des images de Wikimedia Commons à intervalles réguliers. Affiche le titre, l’auteur et la licence des images."
+msgstr "依照所設定的時間間隔，來從維基共享資源挑選圖片更改您的桌布，並顯示出圖片的標題、創作者、和許可。"
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Maintenu par Jon Harald Søby"
+msgstr "由 Jon Harald Søby 維護"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr "Basé sur l’extension Papier-peint Gnome Bing de Michael Carroll, qui elle-même est basée sur l’extension Gnome shell de NASA APOD par Ella Argentieri."
+msgstr "此為基於由 Michael Carroll 開發的 Bing Wallpaper Gnome 擴充套件所製作（該套件另外也是基於由 Ella Argentieri 開發的 NASA APOD Gnome shell 擴充套件）。"
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr "<span size=\"small\">Ce programme est fourni sans AUCUNE GARANTIE.\nVoyez la <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">Licence générale publique GNU, version 3 ou plus</a> pour les détails.</span>"
+msgstr "<span size=\"small\">此程式並不做任何擔保。請查看 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU通用公眾授權條款第 3 版或更新版本</a>來獲得更多資訊。</span>"
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "À propos"
+msgstr "關於"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "minutes"
+msgstr "分"
 
 #: extension.js:82
 msgid "days"
-msgstr "jours"
+msgstr "天"
 
 #: extension.js:85
 msgid "hours"
-msgstr "heures"
+msgstr "時"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr "(Aucun rafraîchissement programmé)"
+msgstr "（沒有排定刷新）"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr "Attente de rafraîchissement..."
+msgstr "等待刷新…"
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr "Copier l’URL de l’image dans le presse-papier"
+msgstr "複製圖片網址到剪貼簿"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr "Rafraîchir maintenant"
+msgstr "現在刷新"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr "Prochain rafraîchissement : $1 ($2)"
+msgstr "下一次刷新：$1（$2）"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(Aucune description...)"
+msgstr "（沒有描述…）"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr "Auteur : $1"
+msgstr "創作者：$1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr "(Aucun auteur listé...)"
+msgstr "（沒有列出創作者…）"
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "Licence : $1"
+msgstr "許可：$1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "Aucun papier-peint disponible"
+msgstr "沒有桌布可用"
 

@@ -1,0 +1,135 @@
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Macedonian (македонски)
+# Exported from translatewiki.net
+#
+# Author: Bjankuloski06
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2019-10-31 17:27:26+0000\n"
+"X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: mk\n"
+"X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
+"Plural-Forms: nplurals=2; plural=(n == 1 || n%10 == 1) ? 0 : 1;\n"
+
+#: Settings.ui.h:1
+msgid "Hide the indicator"
+msgstr "Скриј го показателот"
+
+#: Settings.ui.h:2
+msgid "Set background image"
+msgstr "Задај позадина"
+
+#: Settings.ui.h:3
+msgid "Set lock screen image"
+msgstr "Задај како позадина при заклучен екран"
+
+#: Settings.ui.h:4
+msgid "Download folder:"
+msgstr "Папка за преземање:"
+
+#: Settings.ui.h:5
+msgid "Commons Wallpaper pictures folder"
+msgstr "Папка со позадини од Ризницата"
+
+#: Settings.ui.h:6
+msgid "Delete previously downloaded wallpapers:"
+msgstr "Избриши претходно преземани позадини:"
+
+#: Settings.ui.h:7
+msgid "Number of wallpapers to store before deleting oldest:"
+msgstr "Колку позадини да се складираат пред да се избрише најстарата:"
+
+#: Settings.ui.h:8
+msgid "Hours between automatic updates:"
+msgstr "На колку часа да се врши автоматска поднова:"
+
+#: Settings.ui.h:9
+msgid "Screen resolution:"
+msgstr "Разделност на екранот:"
+
+#: Settings.ui.h:10
+msgid "Override automatic resolution selection"
+msgstr "Наметни врз автоматскиот избор на разделност"
+
+#: Settings.ui.h:11 extension.js:137
+msgid "Settings"
+msgstr "Нагодувања"
+
+#: Settings.ui.h:12
+msgid "Gnome shell extension version:"
+msgstr "Верзија на додатокот со обвивка на GNOME:"
+
+#: Settings.ui.h:13
+msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
+msgstr "Ви ја менува позадината со избрани слики од Ризницата вп зададени интервали. Прикажува наслов, творец и лиценца на сликите."
+
+#: Settings.ui.h:14
+msgid "Maintained by Jon Harald Søby"
+msgstr "Одржува: Јон Харалд Себи"
+
+#: Settings.ui.h:16
+msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
+msgstr "На основа на додатокот на GNOME за Бинг Позадина на Мајкл Керол, кој пак е изработен според додатокот APOD за GNOME на НАСА, во авторство на Ела Арџентјери."
+
+#: Settings.ui.h:17
+msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
+msgstr "<span size=\"small\">Оваа програма се нуди БЕЗ АПСОЛУТНО НИКАКВА ГАРАНЦИЈА.\nПовеќе ќе дознаете на <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">ГНУ-овата општа јавна лиценца, верзија 3 или понова</a>.</span>"
+
+#: Settings.ui.h:19
+msgid "About"
+msgstr "За додатоков"
+
+#: extension.js:76 extension.js:79
+msgid "minutes"
+msgstr "минути"
+
+#: extension.js:82
+msgid "days"
+msgstr "дена"
+
+#: extension.js:85
+msgid "hours"
+msgstr "часа"
+
+#: extension.js:131
+msgid "(No refresh scheduled)"
+msgstr "(Нема зададено поднова)"
+
+#: extension.js:132 extension.js:133 extension.js:134
+msgid "Awaiting refresh …"
+msgstr "Чекам на поднова..."
+
+#: extension.js:135
+msgid "Copy image URL to clipboard"
+msgstr "Прекопирај URL на сликата во меѓускладот"
+
+#: extension.js:136
+msgid "Refresh now"
+msgstr "Поднови сега"
+
+#: extension.js:169
+msgid "Next refresh: $1 ($2)"
+msgstr "Следна поднова: $1 ($2)"
+
+#: extension.js:263
+msgid "(No description …)"
+msgstr "(Нема опис …)"
+
+#: extension.js:266
+msgid "Creator: $1"
+msgstr "Творец: $1"
+
+#: extension.js:268
+msgid "(No creator listed …)"
+msgstr "(Нема наведено творец …)"
+
+#: extension.js:271
+msgid "License: $1"
+msgstr "Лиценца: $1"
+
+#: extension.js:313
+msgid "No wallpaper available"
+msgstr "Нема достапна позадина"
+

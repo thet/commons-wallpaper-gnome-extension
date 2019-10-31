@@ -1,136 +1,137 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to French (français)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Spanish (español)
 # Exported from translatewiki.net
 #
-# Author: Gomoko
-# Author: Verdy p
+# Author: Fitoschido
+# Author: Ihojose
+# Author: Madamebiblio
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-31 17:27:24+0000\n"
+"PO-Revision-Date: 2019-10-31 17:27:23+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"Language: es\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "Masquer l’indicateur"
+msgstr ""
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "Définir l’image de fond"
+msgstr ""
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "Définir l’image d’écran verrouillé"
+msgstr ""
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Télécharger le dossier :"
+msgstr "Carpeta de descargas:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr "Dossier des images de papier-peint communes"
+msgstr ""
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr "Supprimer les papiers-peints précédemment téléchargés :"
+msgstr ""
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr "Nombre de papiers-peints à stocker avant de supprimer les plus anciens :"
+msgstr ""
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr "Heures entre les mises à jour automatiques :"
+msgstr "Horas entre actualizaciones automáticas:"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Résolution d’écran :"
+msgstr "Resolución de pantalla:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "Écraser la sélection automatique de la résolution"
+msgstr ""
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "Ajustes"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "Version de l’extension Gnome shell :"
+msgstr "Versión de la extensión del shell de Gnome:"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr "Modifie votre papier-peint pour sélectionner des images de Wikimedia Commons à intervalles réguliers. Affiche le titre, l’auteur et la licence des images."
+msgstr ""
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Maintenu par Jon Harald Søby"
+msgstr ""
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr "Basé sur l’extension Papier-peint Gnome Bing de Michael Carroll, qui elle-même est basée sur l’extension Gnome shell de NASA APOD par Ella Argentieri."
+msgstr ""
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr "<span size=\"small\">Ce programme est fourni sans AUCUNE GARANTIE.\nVoyez la <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">Licence générale publique GNU, version 3 ou plus</a> pour les détails.</span>"
+msgstr ""
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "À propos"
+msgstr "Acerca de"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "minutes"
+msgstr "minutos"
 
 #: extension.js:82
 msgid "days"
-msgstr "jours"
+msgstr "días"
 
 #: extension.js:85
 msgid "hours"
-msgstr "heures"
+msgstr "horas"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr "(Aucun rafraîchissement programmé)"
+msgstr ""
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr "Attente de rafraîchissement..."
+msgstr ""
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr "Copier l’URL de l’image dans le presse-papier"
+msgstr "Copiar URL de imagen en el portapapeles"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr "Rafraîchir maintenant"
+msgstr "Actualizar ahora"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr "Prochain rafraîchissement : $1 ($2)"
+msgstr "Próxima actualización: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(Aucune description...)"
+msgstr "(Sin descripción…)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr "Auteur : $1"
+msgstr ""
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr "(Aucun auteur listé...)"
+msgstr ""
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "Licence : $1"
+msgstr ""
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "Aucun papier-peint disponible"
+msgstr ""
 
