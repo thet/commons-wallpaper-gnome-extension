@@ -54,11 +54,11 @@ have the metadata.json file in the base directory (not in a sub-directory), so y
 
 ## Screenshots
 
-![Screenshot](/screenshots/widget.png)
+![Screenshot](/screenshots/widget.png)  
 Screenshot showing the widget open, with image description, author and license. The wallpaper in the screenshot is
 [Arelia aurita (Cnidaria)](https://commons.wikimedia.org/wiki/File:Aurelia_aurita_(Cnidaria)_Luc_Viatour.jpg) by
 [Luc Viatour](https://commons.wikimedia.org/wiki/User:Lviatour), licensed under
 [Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.no).
 
-![Settings](/screenshots/settings.png)
+![Settings](/screenshots/settings.png)  
 Screenshot showing the extension's settings.
