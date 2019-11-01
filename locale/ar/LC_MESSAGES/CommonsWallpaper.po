@@ -1,136 +1,135 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to French (français)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Arabic (العربية)
 # Exported from translatewiki.net
 #
-# Author: Gomoko
-# Author: Verdy p
+# Author: ديفيد
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-31 17:27:24+0000\n"
+"PO-Revision-Date: 2019-10-31 17:27:23+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"Language: ar\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ( (n == 1) ? 1 : ( (n == 2) ? 2 : ( (n%100 >= 3 && n%100 <= 10) ? 3 : ( (n%100 >= 11 && n%100 <= 99) ? 4 : 5 ) ) ) );\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "Masquer l’indicateur"
+msgstr "إخفاء المؤشر"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "Définir l’image de fond"
+msgstr "تعيين صورة الخلفية"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "Définir l’image d’écran verrouillé"
+msgstr "ضبط صورة قفل الشاشة"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Télécharger le dossier :"
+msgstr "مجلد التنزيل:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr "Dossier des images de papier-peint communes"
+msgstr "مجلد صور خلفيات كومتز"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr "Supprimer les papiers-peints précédemment téléchargés :"
+msgstr "حذف خلفيات تم تنزيلها مسبقا:"
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr "Nombre de papiers-peints à stocker avant de supprimer les plus anciens :"
+msgstr "عدد الخلفيات لتخزينها قبل حذف الأقدم:"
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr "Heures entre les mises à jour automatiques :"
+msgstr "ساعات بين التحديثات التلقائية:"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Résolution d’écran :"
+msgstr "دقة الشاشة:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "Écraser la sélection automatique de la résolution"
+msgstr "تجاوز التحديد التلقائي للدقة"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "إعدادات"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "Version de l’extension Gnome shell :"
+msgstr "نسخة تمديد غنوم شل:"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr "Modifie votre papier-peint pour sélectionner des images de Wikimedia Commons à intervalles réguliers. Affiche le titre, l’auteur et la licence des images."
+msgstr "يغير خلفيتك إلى صور محددة من ويكيميديا ​​كومنز على فترات زمنية محددة، يعرض عنوان ومنشئ وترخيص الصور."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Maintenu par Jon Harald Søby"
+msgstr "تحت رعاية جون هارالد سوبي"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr "Basé sur l’extension Papier-peint Gnome Bing de Michael Carroll, qui elle-même est basée sur l’extension Gnome shell de NASA APOD par Ella Argentieri."
+msgstr "استنادا إلى امتداد غنوم خلفية بينج بواسطة مايكل كارول، والذي اعتمد مرة أخرى على امتداد NASA APOD Gnome shell بواسطة إيلا أرجنتيري."
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr "<span size=\"small\">Ce programme est fourni sans AUCUNE GARANTIE.\nVoyez la <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">Licence générale publique GNU, version 3 ou plus</a> pour les détails.</span>"
+msgstr "<span size=\"small\">هذا البرنامج يأتي بدون أي ضمان على الاطلاق،\n انظر <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">رخصة جنو العمومية، الإصدار 3 أو الأحدث</a> للتفاصيل.</span>"
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "À propos"
+msgstr "عن"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "minutes"
+msgstr "دقائق"
 
 #: extension.js:82
 msgid "days"
-msgstr "jours"
+msgstr "أيام"
 
 #: extension.js:85
 msgid "hours"
-msgstr "heures"
+msgstr "ساعات"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr "(Aucun rafraîchissement programmé)"
+msgstr "(لا يوجد تحديث مجدول)"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr "Attente de rafraîchissement..."
+msgstr "في انتظار التحديث ..."
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr "Copier l’URL de l’image dans le presse-papier"
+msgstr "نسخ مسار الصورة إلى الحافظة"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr "Rafraîchir maintenant"
+msgstr "تحديث الآن"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr "Prochain rafraîchissement : $1 ($2)"
+msgstr "التحديث القادم: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(Aucune description...)"
+msgstr "(لا يوجد وصف …)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr "Auteur : $1"
+msgstr "المنشئ: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr "(Aucun auteur listé...)"
+msgstr "(لا يوجد منشئ مُدرج ...)"
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "Licence : $1"
+msgstr "الترخيص: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "Aucun papier-peint disponible"
+msgstr "لا توجد خلفية متاحة"
 

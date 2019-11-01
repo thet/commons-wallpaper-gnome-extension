@@ -2,10 +2,11 @@
 # Exported from translatewiki.net
 #
 # Author: Jon Harald Søby
+# Author: Robby
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-28 14:56:45+0000\n"
+"PO-Revision-Date: 2019-10-31 17:27:30+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -84,11 +85,11 @@ msgstr "Disclaimer shown in the \"about\" section of the settings."
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "Title for the \"about\" tab in the settings."
+msgstr "Title for the \"about\" tab in the settings.\n{{Identical|About}}"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "Text showing how many minutes until the wallpaper will be updated (is prefixed with the number)"
+msgstr "Text showing how many minutes until the wallpaper will be updated (is prefixed with the number)\n{{Identical|Minute}}"
 
 #: extension.js:82
 msgid "days"
@@ -96,7 +97,7 @@ msgstr "Text showing how many days until the wallpaper will be updated (is prefi
 
 #: extension.js:85
 msgid "hours"
-msgstr "Text showing how many hours until the wallpaper will be updated (is prefixed with the number)"
+msgstr "Text showing how many hours until the wallpaper will be updated (is prefixed with the number)\n{{Identical|Hour}}"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
