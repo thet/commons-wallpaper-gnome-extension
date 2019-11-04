@@ -1,33 +1,33 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to Bangla (বাংলা)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Korean (한국어)
 # Exported from translatewiki.net
 #
-# Author: আফতাবুজ্জামান
+# Author: Ykhwong
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-04 14:47:00+0000\n"
+"PO-Revision-Date: 2019-11-04 14:47:02+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
+"Language: ko\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "নির্দেশকটি লুকান"
+msgstr ""
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "পটভূমির চিত্র নির্ধারণ করুন"
+msgstr "배경 이미지 설정"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "তালাবদ্ধ পর্দার চিত্র নির্ধারণ করুন"
+msgstr ""
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "ফোল্ডার ডাউনলোড করুন:"
+msgstr "다운로드 폴더:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
@@ -43,23 +43,23 @@ msgstr ""
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr ""
+msgstr "자동 업데이트 간 시간:"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "পর্দার রেজুলেশন:"
+msgstr "화면 해상도:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "স্বয়ংক্রিয় রেজুলেশন নির্বাচন অগ্রাহ্য করবে"
+msgstr ""
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "সেটিংস"
+msgstr "설정"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "গনোম শেল এক্সটেনশন সংস্করণ:"
+msgstr "그놈 셸 확장 버전:"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
@@ -67,7 +67,7 @@ msgstr ""
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Jon Harald Søby দ্বারা রক্ষণাবেক্ষণকৃত"
+msgstr ""
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
@@ -79,19 +79,19 @@ msgstr ""
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "সম্পর্কে"
+msgstr "정보"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "মিনিট"
+msgstr "분"
 
 #: extension.js:82
 msgid "days"
-msgstr "দিন"
+msgstr ""
 
 #: extension.js:85
 msgid "hours"
-msgstr "ঘণ্টা"
+msgstr "시간"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
@@ -103,23 +103,23 @@ msgstr ""
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr ""
+msgstr "이미지 URL을 클립보드에 복사"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr ""
+msgstr "지금 새로 고침"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr ""
+msgstr "다음 갱신: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(কোনো বিবরণ নেই …)"
+msgstr "(설명 없음 ...)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr ""
+msgstr "만든이: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
@@ -127,9 +127,9 @@ msgstr ""
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "লাইসেন্স: $1"
+msgstr "라이선스: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "কোনো ওয়ালপেপার উপলব্ধ নেই"
+msgstr ""
 

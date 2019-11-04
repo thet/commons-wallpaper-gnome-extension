@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-31 17:27:23+0000\n"
+"PO-Revision-Date: 2019-11-04 14:47:00+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,11 +57,11 @@ msgstr ""
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Configuración"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "Versión de la extensión del shell de Gnome:"
+msgstr "Versión de la extensión de GNOME Shell:"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
@@ -73,7 +73,7 @@ msgstr ""
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr ""
+msgstr "Basada en la extensión de GNOME Shell Bing Wallpaper de Michael Carroll, que a su vez se basó en la extensión NASA APOD de Ella Argentieri."
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: extension.js:271
 msgid "License: $1"
-msgstr ""
+msgstr "Licencia: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-31 17:27:27+0000\n"
+"PO-Revision-Date: 2019-11-04 14:47:06+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,23 +15,23 @@ msgstr ""
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr ""
+msgstr "Ocultar o indicador"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr ""
+msgstr "Definir imagem de fundo"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr ""
+msgstr "Definir imagem da tela de bloqueio"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr ""
+msgstr "Pasta de download:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr ""
+msgstr "Pasta de fotos do Commons Wallpaper"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
@@ -47,11 +47,11 @@ msgstr "Horas entre atualizações automáticas:"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr ""
+msgstr "Resolução da tela:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr ""
+msgstr "Substituir seleção automática de resolução"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
@@ -63,7 +63,7 @@ msgstr "Versão da extensão do shell Gnome:"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr ""
+msgstr "Altera seu papel de parede para fotos selecionadas do Wikimedia Commons em intervalos definidos. Exibe o título, criador e licença das imagens."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
@@ -71,7 +71,7 @@ msgstr "Mantido por Jon Harald Søby"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr ""
+msgstr "Baseado na extensão Bing Wallpaper Gnome de Michael Carroll, que foi novamente baseada na extensão shell da NASA APOD Gnome de Ella Argentieri."
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
@@ -79,7 +79,7 @@ msgstr "<span size=\"small\">Este programa vem com ABSOLUTAMENTE NENHUMA GARANTI
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
@@ -87,7 +87,7 @@ msgstr "minutos"
 
 #: extension.js:82
 msgid "days"
-msgstr ""
+msgstr "dias"
 
 #: extension.js:85
 msgid "hours"
@@ -95,11 +95,11 @@ msgstr "horas"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr ""
+msgstr "(Nenhuma atualização agendada)"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr ""
+msgstr "Aguardando atualização …"
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
@@ -107,7 +107,7 @@ msgstr "Copiar URL da imagem para a área de transferência"
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr ""
+msgstr "Atualizar agora"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
@@ -119,15 +119,15 @@ msgstr "Sem descrição...)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr ""
+msgstr "Criador: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr ""
+msgstr "(Nenhum criador listado …)"
 
 #: extension.js:271
 msgid "License: $1"
-msgstr ""
+msgstr "Licença: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
