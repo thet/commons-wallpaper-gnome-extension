@@ -1,33 +1,33 @@
-# Translation of Wikimedia Commons Wallpaper Gnome Extension to Bangla (বাংলা)
+# Translation of Wikimedia Commons Wallpaper Gnome Extension to Portuguese (português)
 # Exported from translatewiki.net
 #
-# Author: আফতাবুজ্জামান
+# Author: Mansil alfalb
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-04 14:47:00+0000\n"
+"PO-Revision-Date: 2019-11-07 15:06:43+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
+"Language: pt\n"
 "X-Generator: MediaWiki 1.35.0-alpha; Translate 2019-04-24\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: Settings.ui.h:1
 msgid "Hide the indicator"
-msgstr "নির্দেশকটি লুকান"
+msgstr "Ocultar o indicador"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr "পটভূমির চিত্র নির্ধারণ করুন"
+msgstr ""
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr "তালাবদ্ধ পর্দার চিত্র নির্ধারণ করুন"
+msgstr ""
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "ফোল্ডার ডাউনলোড করুন:"
+msgstr "Pasta de transferências:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
@@ -47,19 +47,19 @@ msgstr ""
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "পর্দার রেজুলেশন:"
+msgstr "Resolução de ecrã:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr "স্বয়ংক্রিয় রেজুলেশন নির্বাচন অগ্রাহ্য করবে"
+msgstr ""
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
-msgstr "সেটিংস"
+msgstr "Configurações"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr "গনোম শেল এক্সটেনশন সংস্করণ:"
+msgstr ""
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
@@ -67,7 +67,7 @@ msgstr ""
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
-msgstr "Jon Harald Søby দ্বারা রক্ষণাবেক্ষণকৃত"
+msgstr ""
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
@@ -79,19 +79,19 @@ msgstr ""
 
 #: Settings.ui.h:19
 msgid "About"
-msgstr "সম্পর্কে"
+msgstr "Sobre"
 
 #: extension.js:76 extension.js:79
 msgid "minutes"
-msgstr "মিনিট"
+msgstr "minutos"
 
 #: extension.js:82
 msgid "days"
-msgstr "দিন"
+msgstr "dias"
 
 #: extension.js:85
 msgid "hours"
-msgstr "ঘণ্টা"
+msgstr "horas"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: extension.js:136
 msgid "Refresh now"
-msgstr ""
+msgstr "Atualizar agora"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
@@ -115,11 +115,11 @@ msgstr ""
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr "(কোনো বিবরণ নেই …)"
+msgstr "(Sem descrição...)"
 
 #: extension.js:266
 msgid "Creator: $1"
-msgstr ""
+msgstr "Criador: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
@@ -127,9 +127,9 @@ msgstr ""
 
 #: extension.js:271
 msgid "License: $1"
-msgstr "লাইসেন্স: $1"
+msgstr "Licença: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr "কোনো ওয়ালপেপার উপলব্ধ নেই"
+msgstr ""
 

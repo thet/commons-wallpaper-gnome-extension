@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-10-31 17:27:25+0000\n"
+"PO-Revision-Date: 2019-11-07 15:06:39+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -72,11 +72,11 @@ msgstr "באדיבות Jon Harald Søby"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr ""
+msgstr "מבוסס על הרחבת תמונת הרקע מ־Bing ל־Gnome מאת מיכאל קרול, שפותחה על בסיס ההרחבה NASA APOD ל־Gnome shell מאת אלה ארג׳נטיארי."
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr ""
+msgstr "<span size=\"small\">תכנית זו מופצת ללא שום אחריות.\nיש לעיין ב<a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">גרסה 3 ומעלה של הרישיון הציבורי הכללי שלGNU</a> לפרטים נוספים.</span>"
 
 #: Settings.ui.h:19
 msgid "About"
