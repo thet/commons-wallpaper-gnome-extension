@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-11 15:50:33+0000\n"
+"PO-Revision-Date: 2019-11-14 16:10:36+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,7 +115,7 @@ msgstr ""
 
 #: extension.js:263
 msgid "(No description …)"
-msgstr ""
+msgstr "（没有描述……）"
 
 #: extension.js:266
 msgid "Creator: $1"
@@ -123,7 +123,7 @@ msgstr "作者：$1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr ""
+msgstr "（没有列出作者……）"
 
 #: extension.js:271
 msgid "License: $1"
