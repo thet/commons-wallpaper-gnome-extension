@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-14 16:10:36+0000\n"
+"PO-Revision-Date: 2019-11-18 17:10:15+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr ""
+msgstr "等待刷新……"
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
