@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-18 17:10:15+0000\n"
+"PO-Revision-Date: 2019-11-28 15:33:53+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -95,7 +95,7 @@ msgstr "时"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr ""
+msgstr "（没有安排刷新）"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
@@ -103,7 +103,7 @@ msgstr "等待刷新……"
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr ""
+msgstr "复制图片网址到剪贴板"
 
 #: extension.js:136
 msgid "Refresh now"

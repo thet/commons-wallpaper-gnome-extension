@@ -1,11 +1,12 @@
 # Translation of Wikimedia Commons Wallpaper Gnome Extension to Portuguese (português)
 # Exported from translatewiki.net
 #
+# Author: Hamilton Abreu
 # Author: Mansil alfalb
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-07 15:06:43+0000\n"
+"PO-Revision-Date: 2019-11-28 15:33:50+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,7 +28,7 @@ msgstr ""
 
 #: Settings.ui.h:4
 msgid "Download folder:"
-msgstr "Pasta de transferências:"
+msgstr "Pasta de descarregamentos:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
