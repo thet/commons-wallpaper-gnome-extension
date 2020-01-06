@@ -2,11 +2,12 @@
 # Exported from translatewiki.net
 #
 # Author: Hamilton Abreu
+# Author: Mansil
 # Author: Mansil alfalb
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-28 15:33:50+0000\n"
+"PO-Revision-Date: 2020-01-06 16:40:41+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,11 +21,11 @@ msgstr "Ocultar o indicador"
 
 #: Settings.ui.h:2
 msgid "Set background image"
-msgstr ""
+msgstr "Definir a imagem de fundo"
 
 #: Settings.ui.h:3
 msgid "Set lock screen image"
-msgstr ""
+msgstr "Definir a imagem de ecrã bloqueado"
 
 #: Settings.ui.h:4
 msgid "Download folder:"
@@ -32,27 +33,27 @@ msgstr "Pasta de descarregamentos:"
 
 #: Settings.ui.h:5
 msgid "Commons Wallpaper pictures folder"
-msgstr ""
+msgstr "Pasta de imagens de fundos da wiki Commons"
 
 #: Settings.ui.h:6
 msgid "Delete previously downloaded wallpapers:"
-msgstr ""
+msgstr "Eliminar fundos descarregados anteriormente:"
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr ""
+msgstr "Número de fundos a armazenar antes de eliminar o mais antigo:"
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr ""
+msgstr "Horas entre atualizações automáticas:"
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
-msgstr "Resolução de ecrã:"
+msgstr "Resolução do ecrã:"
 
 #: Settings.ui.h:10
 msgid "Override automatic resolution selection"
-msgstr ""
+msgstr "Substituir seleção automática da resolução"
 
 #: Settings.ui.h:11 extension.js:137
 msgid "Settings"
@@ -96,15 +97,15 @@ msgstr "horas"
 
 #: extension.js:131
 msgid "(No refresh scheduled)"
-msgstr ""
+msgstr "(Não há nenhuma atualização agendada)"
 
 #: extension.js:132 extension.js:133 extension.js:134
 msgid "Awaiting refresh …"
-msgstr ""
+msgstr "A aguardar atualização..."
 
 #: extension.js:135
 msgid "Copy image URL to clipboard"
-msgstr ""
+msgstr "Copiar URL da imagem para a área de transferência"
 
 #: extension.js:136
 msgid "Refresh now"
@@ -112,7 +113,7 @@ msgstr "Atualizar agora"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr ""
+msgstr "Próxima atualização: $1 ($2)"
 
 #: extension.js:263
 msgid "(No description …)"
@@ -124,7 +125,7 @@ msgstr "Criador: $1"
 
 #: extension.js:268
 msgid "(No creator listed …)"
-msgstr ""
+msgstr "(Não há nenhum criador listado…)"
 
 #: extension.js:271
 msgid "License: $1"
@@ -132,5 +133,5 @@ msgstr "Licença: $1"
 
 #: extension.js:313
 msgid "No wallpaper available"
-msgstr ""
+msgstr "Não há nenhum fundo disponível"
 
