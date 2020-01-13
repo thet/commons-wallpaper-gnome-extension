@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-28 15:33:44+0000\n"
+"PO-Revision-Date: 2020-01-13 15:07:21+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -65,7 +65,7 @@ msgstr "Derganeya versiyonê qabığê Gnomeyb"
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr ""
+msgstr "Kağıdê dêsi, nışanyayê mabênan ra Wikimedia Commons ra weçineyaye resiman ra vıriyeno. Namey resiman vıraştoği u lisansi mocneno."
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
@@ -73,11 +73,11 @@ msgstr "Terefê Jon Harald Søby ra"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr ""
+msgstr "Kağıdê dêsê Bingi azıkiya derganiye Gnome ra Michael Carroll, reyna terefê Ella Argentieri ra vêreno derganiya kabığê NASA APOD'i."
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr ""
+msgstr "<span size=\"small\">No program QETİYEN GARANTİ ÇINIYO.\nSeba detayan rê letey <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">lisansê şarê umumiyanê GNU, versiyonê 3 ya zi berzi</a> bıvinê .</span>"
 
 #: Settings.ui.h:19
 msgid "About"

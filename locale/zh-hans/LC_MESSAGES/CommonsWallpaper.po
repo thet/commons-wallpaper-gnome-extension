@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 ""
-"PO-Revision-Date: 2019-11-28 15:33:53+0000\n"
+"PO-Revision-Date: 2020-01-13 15:07:21+0000\n"
 "X-POT-Import-Date: 2019-10-28 13:58:15+0000\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,11 +39,11 @@ msgstr "删除之前下载的壁纸："
 
 #: Settings.ui.h:7
 msgid "Number of wallpapers to store before deleting oldest:"
-msgstr ""
+msgstr "在删除最旧壁纸前所保存的壁纸数量："
 
 #: Settings.ui.h:8
 msgid "Hours between automatic updates:"
-msgstr ""
+msgstr "自动更新之间的小时数："
 
 #: Settings.ui.h:9
 msgid "Screen resolution:"
@@ -59,11 +59,11 @@ msgstr "设置"
 
 #: Settings.ui.h:12
 msgid "Gnome shell extension version:"
-msgstr ""
+msgstr "GNOME shell 扩展套件版本："
 
 #: Settings.ui.h:13
 msgid "Changes your wallpaper to selected pictures from Wikimedia Commons at set intervals. Displays the title, creator and license of the pictures."
-msgstr ""
+msgstr "依照所设定的时间间隔，来从维基共享资源挑选图片作为您的壁纸，并显示出图片的标题、创作者和许可协议。"
 
 #: Settings.ui.h:14
 msgid "Maintained by Jon Harald Søby"
@@ -71,11 +71,11 @@ msgstr "由Jon Harald Søby维护"
 
 #: Settings.ui.h:16
 msgid "Based on the Bing Wallpaper Gnome extension by Michael Carroll, which was again based on the NASA APOD Gnome shell extension by Ella Argentieri."
-msgstr ""
+msgstr "基于由Michael Carroll开发的Bing Wallpaper Gnome扩展套件（该扩展也基于由Ella Argentieri开发的NASA APOD Gnome shell扩展套件）。"
 
 #: Settings.ui.h:17
 msgid "<span size=\"small\">This program comes with ABSOLUTELY NO WARRANTY.\nSee the <a href=\"https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GNU General Public License, version 3 or later</a> for details.</span>"
-msgstr ""
+msgstr "<span size=\"small\">此程序并不做任何担保。请查阅<a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU通用公共许可协议第3版或更新版本</a>来获取更多信息。</span>"
 
 #: Settings.ui.h:19
 msgid "About"
@@ -111,7 +111,7 @@ msgstr "现在刷新"
 
 #: extension.js:169
 msgid "Next refresh: $1 ($2)"
-msgstr ""
+msgstr "下一次刷新：$1（$2）"
 
 #: extension.js:263
 msgid "(No description …)"
