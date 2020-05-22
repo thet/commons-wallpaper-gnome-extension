@@ -118,6 +118,7 @@ const CommonsWallpaperIndicator = new Lang.Class({
     this._timeout = null;
     this.imageURL = ""; // link to image itself
     this.imageinfolink = ""; // link to Commons photo info page
+    this.imagelist = null;
 
     this._settings = Utils.getSettings();
     this._settings.connect(
@@ -230,31 +231,40 @@ const CommonsWallpaperIndicator = new Lang.Class({
     this._updatePending = true;
 
     let APIrequest = Soup.Message.new("GET", ImageListURL);
-    httpSession.queue_message(
-      APIrequest,
-      Lang.bind(this, function (httpSession, message) {
-        if (message.status_code == 200) {
-          let data = JSON.parse(message.response_body.data);
-          let chosen1 = data[Math.floor(Math.random() * data.length)];
-          let size = "&iiurlwidth=" + this.resW;
-          if (heightmatters) {
-            size = "&iiurlheight=" + this.resH;
+
+    if (!this.imagelist) {
+      httpSession.queue_message(
+        APIrequest,
+        Lang.bind(this, function (httpSession, message) {
+          if (message.status_code == 200) {
+            this.imagelist = JSON.parse(message.response_body.data);
+            this._chooseAndGetImage(this.imagelist, heightmatters);
           }
-          let request = Soup.Message.new(
-            "GET",
-            CommonsImageURLbase + encodeURI(chosen1) + size
-          );
-          httpSession.queue_message(
-            request,
-            Lang.bind(this, function (httpSession, message2) {
-              if (message2.status_code == 200) {
-                let data2 = message2.response_body.data;
-                this._parseData(data2);
-              }
-            })
-          );
+          this._updatePending = false;
+        })
+      );
+    } else {
+      this._chooseAndGetImage(this.imagelist, heightmatters);
+    }
+  },
+
+  _chooseAndGetImage: function (data, heightmatters) {
+    let chosen1 = data[Math.floor(Math.random() * data.length)];
+    let size = "&iiurlwidth=" + this.resW;
+    if (heightmatters) {
+      size = "&iiurlheight=" + this.resH;
+    }
+    let request = Soup.Message.new(
+      "GET",
+      CommonsImageURLbase + encodeURI(chosen1) + size
+    );
+    httpSession.queue_message(
+      request,
+      Lang.bind(this, function (httpSession, message2) {
+        if (message2.status_code == 200) {
+          let data2 = message2.response_body.data;
+          this._parseData(data2);
         }
-        this._updatePending = false;
       })
     );
   },
