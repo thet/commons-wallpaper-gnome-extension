@@ -42,7 +42,7 @@
     <key name="resolution" type="s">
       <default>"auto"</default>
       <summary>Screen Size</summary>
-      <description>Valid sizes are '800x600' , '1024x768', '1280x720', '1280x768', '1366x768', '1920x1080', and '1920x1200' </description>
+      <description>Valid sizes are '800x600' , '1024x768', '1280x720', '1280x768', '1366x768', '1920x1080', '1920x1200', '2560x1440' and '3840x2160'</description>
     </key>
 
     <key name="debug-logging" type="b">
@@ -67,12 +67,6 @@
       <default>30</default>
       <summary>Number of days to keep wallpapers</summary>
       <description>Delete wallpapers after this number of days</description>
-    </key>
-
-    <key name="auto-refresh" type="i">
-       <default>24</default>
-       <summary>Number of hours between automatic wallpaper updates</summary>
-       <description>Change the wallpaper after X hours</description>
     </key>
 
     <key name="replace-watermark" type="s">
