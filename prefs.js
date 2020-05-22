@@ -40,7 +40,6 @@ function buildPrefsWidget(){
     let resolutionEntry = buildable.get_object('resolution');
     let deleteSwitch = buildable.get_object('delete_previous');
     let daysSpin = buildable.get_object('days_after_spinbutton');
-    let hoursRefresh = buildable.get_object('hours_between_refresh');
 
     // previous wallpaper images
     let images=[];
@@ -77,7 +76,6 @@ function buildPrefsWidget(){
 
     settings.bind('delete-previous', deleteSwitch, 'active', Gio.SettingsBindFlags.DEFAULT);
     settings.bind('previous-days', daysSpin, 'value', Gio.SettingsBindFlags.DEFAULT);
-    settings.bind('auto-refresh', hoursRefresh, 'value', Gio.SettingsBindFlags.DEFAULT);
 
     box.show_all();
 

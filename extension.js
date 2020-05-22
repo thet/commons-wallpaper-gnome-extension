@@ -24,7 +24,6 @@ const ImageListURL = "https://commons.wikimedia.org/w/index.php?title=User:Jon_H
 const CommonsImageURLbase = "https://commons.wikimedia.org/w/api.php?format=json&action=query&prop=imageinfo&iiprop=url|extmetadata&iiextmetadatafilter=ImageDescription|Artist|LicenseUrl|LicenseShortName&titles="
 const CommonsURL = "https://commons.wikimedia.org";
 const IndicatorName = "CommonsWallpaperIndicator";
-const TIMEOUT_SECONDS_ON_HTTP_ERROR = 1 * 3600; // retry in one hour if there is a http error
 const ICON = "commons";
 
 let monitors;
@@ -110,8 +109,6 @@ const CommonsWallpaperIndicator = new Lang.Class({
         this._timeout = null;
         this.imageURL= ""; // link to image itself
         this.imageinfolink = ""; // link to Commons photo info page
-        this.refreshdue = 0;
-        this.refreshduetext = "";
 
         this._settings = Utils.getSettings();
         this._settings.connect('changed::hide', Lang.bind(this, function() {
@@ -126,9 +123,7 @@ const CommonsWallpaperIndicator = new Lang.Class({
         this.resH = this.resolution.split("x")[1];
 
         this.actor.visible = !this._settings.get_boolean('hide');
-        this.TIMEOUTSECONDS = this._settings.get_int('auto-refresh') * 3600;
 
-        this.refreshDueItem = new PopupMenu.PopupMenuItem(_("(No refresh scheduled)"));
         this.titleItem = new PopupMenu.PopupImageMenuItem(_("Awaiting refresh …"), 'camera-photo-symbolic');
         this.creatorItem = new PopupMenu.PopupImageMenuItem(_("Awaiting refresh …"), 'face-monkey-symbolic');
         this.licenseItem = new PopupMenu.PopupImageMenuItem(_("Awaiting refresh …"), 'application-certificate-symbolic');
@@ -136,7 +131,6 @@ const CommonsWallpaperIndicator = new Lang.Class({
         this.refreshItem = new PopupMenu.PopupImageMenuItem(_("Refresh now"), 'view-refresh-symbolic');
         this.settingsItem = new PopupMenu.PopupImageMenuItem(_("Settings"), 'preferences-system-symbolic');
         this.menu.addMenuItem(this.refreshItem);
-        this.menu.addMenuItem(this.refreshDueItem);
         this.menu.addMenuItem(new PopupMenu.PopupSeparatorMenuItem());
         this.menu.addMenuItem(this.titleItem);
         this.menu.addMenuItem(this.creatorItem);
@@ -149,7 +143,6 @@ const CommonsWallpaperIndicator = new Lang.Class({
             if (this.licenselink)
               Util.spawn(["xdg-open", this.licenselink]);
         }));
-        this.refreshDueItem.setSensitive(false);
         this.titleItem.connect('activate', Lang.bind(this, function() {
             if (this.imageinfolink)
               Util.spawn(["xdg-open", this.imageinfolink]);
@@ -166,10 +159,7 @@ const CommonsWallpaperIndicator = new Lang.Class({
             this.clipboardItem.setSensitive(!this._updatePending && this.imageURL != "");
             this.titleItem.setSensitive(!this._updatePending && this.imageinfolink != "");
             this.licenseItem.setSensitive(!this._updatePending);
-            this.refreshduetext = _("Next refresh: $1 ($2)").replace('$1', this.refreshdue.format("%X")).replace('$2', friendly_time_diff(this.refreshdue));
-            this.refreshDueItem.label.set_text(this.refreshduetext); //
         }));
-        this._restartTimeout(60); // wait 60 seconds before performing refresh
     },
 
     _setBackground: function() {
@@ -187,18 +177,6 @@ const CommonsWallpaperIndicator = new Lang.Class({
         Clipboard.set_text(CLIPBOARD_TYPE, this.imageURL);
     },
 
-    _restartTimeout: function(seconds = null) {
-        if (this._timeout)
-            Mainloop.source_remove(this._timeout);
-        if (seconds == null)
-            seconds = this.TIMEOUTSECONDS;
-        this._timeout = Mainloop.timeout_add_seconds(seconds, Lang.bind(this, this._refresh));
-        let timezone = GLib.TimeZone.new_local();
-        let localTime = GLib.DateTime.new_now(timezone).add_seconds(seconds);
-        this.refreshdue = localTime;
-        log('next check in '+seconds+' seconds @ local time '+localTime);
-    },
-
     _setMenuText: function() {
         this.titleItem.label.set_text(this.title);
         this.creatorItem.label.set_text(this.creator);
@@ -209,8 +187,6 @@ const CommonsWallpaperIndicator = new Lang.Class({
         if (this._updatePending)
             return;
         this._updatePending = true;
-
-        this._restartTimeout();
 
         let APIrequest = Soup.Message.new('GET', ImageListURL);
         httpSession.queue_message(APIrequest, Lang.bind(this, function(httpSession, message) {
@@ -226,15 +202,10 @@ const CommonsWallpaperIndicator = new Lang.Class({
                     if (message2.status_code == 200) {
                         let data2 = message2.response_body.data;
                         this._parseData(data2);
-                    } else {
-                        this._updatePending = false;
-                        this._restartTimeout(TIMEOUT_SECONDS_ON_HTTP_ERROR);
                     }
                 }));
-            } else {
-                this._updatePending = false;
-                this._restartTimeout(TIMEOUT_SECONDS_ON_HTTP_ERROR);
             }
+            this._updatePending = false;
         }));
     },
 

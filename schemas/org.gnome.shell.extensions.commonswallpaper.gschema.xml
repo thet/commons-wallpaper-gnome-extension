@@ -69,12 +69,6 @@
       <description>Delete wallpapers after this number of days</description>
     </key>
 
-    <key name="auto-refresh" type="i">
-       <default>24</default>
-       <summary>Number of hours between automatic wallpaper updates</summary>
-       <description>Change the wallpaper after X hours</description>
-    </key>
-
     <key name="replace-watermark" type="s">
       <default>""</default>
       <summary>Replace or remove Commons watermark on high-res images</summary>
